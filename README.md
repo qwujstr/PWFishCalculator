@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://qwujstr.github.io/PWWorldEditor/">
-    <img src="https://i.imgur.com/8KK92sJ.png" alt="PW World Editor Banner" />
+    <img src="https://i.imgur.com/CX1P6xn.png" alt="PW World Editor Banner" />
   </a>
 </p>
 <p align="left">
