@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://qwujstr.github.io/PWWorldEditor/">
+  <a href="https://qwujstr.github.io/PWFishCalculator/">
     <img src="https://i.imgur.com/CX1P6xn.png" alt="PW World Editor Banner" />
   </a>
 </p>
