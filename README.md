@@ -18,6 +18,6 @@ Simple and easy-to-use fish-to-gems calculator for Pixel Worlds.
 
 All fish prices are based of wiki at https://pixelworlds.fandom.com/wiki/Fishes
 <p align="left">
-  <a href="https://qwujstr.github.io/PWWorldEditor/">
+  <a>
     <img src="https://i.imgur.com/Cwb0vwq.png" alt="PW World Editor Banner" />
   </a>
