@@ -1,0 +1,37 @@
+body { margin: 0; background: #0a0a0a; font-family: 'Segoe UI', sans-serif; user-select: none; color: white; }
+#game-container { min-height: 100vh; display: flex; flex-direction: column; }
+#viewport { flex: 1; background: #050505; display: flex; justify-content: center; padding: 40px 0; overflow-y: auto; }
+
+.menu-popup { background: rgba(22, 22, 22, 0.98); border: 1px solid #333; padding: 25px; border-radius: 16px; box-shadow: 0 25px 50px rgba(0,0,0,0.8); backdrop-filter: blur(15px); height: fit-content; margin-bottom: 100px; }
+.wide-popup { width: 1100px; max-width: 95vw; }
+
+.popup-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; border-bottom: 1px solid #333; padding-bottom: 15px; }
+.popup-header h2 { margin: 0; color: #3abdc2; text-transform: uppercase; letter-spacing: 2px; font-size: 1.2rem; }
+#selection-display { background: rgba(0,0,0,0.8); padding: 5px 15px; border-radius: 20px; font-size: 11px; border: 1px solid #333; color: #3abdc2; font-weight: 700; }
+
+.table-header, .fish-row { display: grid; grid-template-columns: 220px repeat(5, 1fr); gap: 12px; align-items: center; padding: 10px 0; }
+.table-header { border-bottom: 1px solid #333; font-size: 11px; color: #666; text-transform: uppercase; font-weight: bold; }
+.fish-row { border-bottom: 1px solid #222; }
+
+.fish-identity { display: flex; align-items: center; gap: 12px; }
+.fish-icon { width: 32px; height: 32px; image-rendering: pixelated; object-fit: contain; }
+.fish-name-v2 { font-size: 13px; color: #fff; font-weight: 600; text-transform: uppercase; }
+
+.input-container { display: flex; flex-direction: column; gap: 4px; background: #151515; padding: 10px; border-radius: 8px; border: 1px solid #333; transition: 0.2s; }
+.input-container:focus-within { border-color: #3abdc2; background: #1a1a1a; box-shadow: 0 0 10px rgba(58, 189, 194, 0.1); }
+
+.price-tag { font-size: 10px; color: #3abdc2; font-weight: 700; text-align: center; white-space: nowrap; }
+.fish-input { background: transparent; border: none; color: white; text-align: center; font-size: 18px; font-weight: bold; outline: none; width: 100%; cursor: text; }
+.fish-input::-webkit-inner-spin-button, .fish-input::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+
+#ui-tray { position: fixed; bottom: 0; left: 0; right: 0; height: 90px; background: #111; display: flex; align-items: center; justify-content: space-between; padding: 0 50px; border-top: 1px solid #333; z-index: 1000; }
+.total-label { font-size: 12px; color: #3abdc2; font-weight: 700; text-transform: uppercase; }
+.total-value { font-size: 32px; font-weight: 800; color: #fff; }
+
+.fancy-btn { padding: 12px 30px; background: #1a1a1a; border: 1px solid #444; color: white; border-radius: 8px; cursor: pointer; font-weight: 600; transition: 0.2s; }
+.fancy-btn:hover { border-color: #ff4444; color: #ff8888; }
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #050505; }
+::-webkit-scrollbar-thumb { background: #222; border-radius: 5px; border: 2px solid #050505; }
+::-webkit-scrollbar-thumb:hover { background: #3abdc2; }

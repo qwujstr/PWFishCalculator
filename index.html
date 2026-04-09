@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW Fish Calculator</title>
+    <link rel="icon" type="image/png" href="textures/fav.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game-container">
+    <div id="viewport">
+        <div class="menu-popup wide-popup">
+            <div class="popup-header">
+                <h2>Fish Gem Calculator</h2>
+            </div>
+
+            <div class="fish-calculator-grid">
+                <div class="table-header">
+                    <div>Fish</div>
+                    <div>Tiny</div>
+                    <div>Small</div>
+                    <div>Medium</div>
+                    <div>Large</div>
+                    <div>Huge</div>
+                </div>
+                <div id="fishRowsContainer"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ui-tray">
+        <div class="total-display">
+            <span class="total-label">Total Gems: </span>
+            <span class="total-value" id="totalGems">0</span>
+        </div>
+        <div class="tool-group">
+            <button class="fancy-btn reset-btn" onclick="resetAll()">RESET ALL</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
